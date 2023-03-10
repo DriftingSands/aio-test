@@ -1,0 +1,20 @@
+{
+  "name": "cf-button-test-extension",
+  "id": "cf-button-test-extension",
+  "description": "test-project",
+  "version": "0.0.1",
+  "actionBarButtons": [
+    {
+      "label": "cf-editor-test",
+      "needsModal": true,
+      "id": "cf-editor-test"
+    }
+  ],
+  "headerMenuButtons": [
+    {
+      "label": "cf-editor-test-header",
+      "needsModal": true,
+      "id": "cf-editor-test-header"
+    }
+  ]
+}
