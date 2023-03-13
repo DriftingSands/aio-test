@@ -5,7 +5,7 @@
 import React from "react"
 import ErrorBoundary from "react-error-boundary"
 
-import { HashRouter as Router, Switch, Route } from "react-router-dom"
+import { HashRouter as Router, Routes, Route } from "react-router-dom"
 
 import ExtensionRegistration from "./ExtensionRegistration"
       
@@ -16,10 +16,8 @@ import CfeTestHeader from "./cf-editor-test-headerModal"
 function App(props) {
   return (
     <Router>
-      Hey this is a test
-      <ExtensionRegistration />
       <ErrorBoundary onError={onError} FallbackComponent={fallbackComponent}>
-        <Switch>
+        <Routes>
           <Route index element={<ExtensionRegistration />} />
           
           <Route
@@ -37,7 +35,7 @@ function App(props) {
             element={<CfeTestHeader />}
           />
           
-        </Switch>
+        </Routes>
       </ErrorBoundary>
     </Router>
   )

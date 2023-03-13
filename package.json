@@ -5,11 +5,12 @@
   "dependencies": {
     "@adobe/aem-cf-admin-ui-ext-tpl": "^1.0.0-beta.14",
     "@adobe/aio-sdk": "^3.0.0",
+    "@adobe/asset-compute-sdk": "^4.0.2",
     "@adobe/exc-app": "^0.2.21",
     "@adobe/generator-app-asset-compute": "^1.0.2",
     "@adobe/generator-app-excshell": "^0.2.4",
     "@adobe/react-spectrum": "^3.4.0",
-    "@adobe/uix-guest": "^0.6.4",
+    "@adobe/uix-guest": "^0.7.0",
     "@react-spectrum/list": "^3.0.0-rc.0",
     "@spectrum-icons/workflow": "^3.2.0",
     "core-js": "^3.6.4",
@@ -18,18 +19,17 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-error-boundary": "^1.2.5",
-    "react-router-dom": "^5.2.0",
-    "regenerator-runtime": "^0.13.5",
-    "@adobe/asset-compute-sdk": "^4.0.2"
+    "react-router-dom": "^6.9.0",
+    "regenerator-runtime": "^0.13.5"
   },
   "devDependencies": {
+    "@adobe/aio-cli-plugin-asset-compute": "^4.0.2",
     "@babel/core": "^7.8.7",
     "@babel/plugin-transform-react-jsx": "^7.8.3",
     "@babel/polyfill": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
     "@openwhisk/wskdebug": "^1.3.0",
-    "jest": "^27.2.4",
-    "@adobe/aio-cli-plugin-asset-compute": "^4.0.2"
+    "jest": "^27.2.4"
   },
   "scripts": {
     "test": "jest --passWithNoTests ./test",
